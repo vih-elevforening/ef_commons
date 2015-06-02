@@ -131,12 +131,33 @@ function ef_commons_features_override_default_overrides() {
       ),
       'css' => array(),
       'extras' => array(),
-      'position' => 0,
+      'position' => 1,
       'locks' => array(),
       'uuid' => 'ab237aa5-5ae7-8fb4-e1ce-20c776a6950b',
     );
+  $overrides["page_manager_pages.groups_directory.default_handlers|page_groups_directory_panel_context|conf|display|content|new-d8f1faeb-6eb3-4dcb-819d-2c76975ccda4"] = (object) array(
+      'pid' => 'new-d8f1faeb-6eb3-4dcb-819d-2c76975ccda4',
+      'panel' => 'two_66_33_second',
+      'type' => 'join_group',
+      'subtype' => 'join_group',
+      'shown' => TRUE,
+      'access' => array(),
+      'configuration' => array(
+        'override_title' => 0,
+        'override_title_text' => '',
+        'override_title_heading' => 'h2',
+      ),
+      'cache' => array(),
+      'style' => array(),
+      'css' => array(),
+      'extras' => array(),
+      'position' => 0,
+      'locks' => array(),
+      'uuid' => 'd8f1faeb-6eb3-4dcb-819d-2c76975ccda4',
+    );
   $overrides["page_manager_pages.groups_directory.default_handlers|page_groups_directory_panel_context|conf|display|panels|two_66_33_second"] = array(
-    0 => 'new-ab237aa5-5ae7-8fb4-e1ce-20c776a6950b',
+    0 => 'new-d8f1faeb-6eb3-4dcb-819d-2c76975ccda4',
+    1 => 'new-ab237aa5-5ae7-8fb4-e1ce-20c776a6950b',
   );
 
   // Exported overrides for: views_view
